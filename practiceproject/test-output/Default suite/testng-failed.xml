@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cuCumber_Project.Runner_Class">
+      <class name="practice_package.PracticeForm">
         <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="one"/>
         </methods>
-      </class> <!-- cuCumber_Project.Runner_Class -->
+      </class> <!-- practice_package.PracticeForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,1 @@
+{"uuid":"5eec8087-5290-4d6c-8182-8b72f8c49bde","name":"practice_package.Frames.setup","children":["91f3b7e9-b322-45e3-af20-188731d0bfb0"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1768295878568,"stop":1768295883286}],"afters":[],"start":1768295878568,"stop":1768295883287}

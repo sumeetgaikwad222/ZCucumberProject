@@ -2,46 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-23T18:44:21 IST" name="Default suite" finished-at="2025-12-23T18:44:37 IST" duration-ms="16714">
+  <suite started-at="2026-01-13T16:21:13 IST" name="Default suite" finished-at="2026-01-13T16:21:17 IST" duration-ms="3609">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cuCumber_Project.Runner_Class@1c852c0f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-12-23T18:44:21 IST" name="Default test" finished-at="2025-12-23T18:44:37 IST" duration-ms="16714">
-      <class name="cuCumber_Project.Runner_Class">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cuCumber_Project.Runner_Class@1c852c0f]" started-at="2025-12-23T18:44:21 IST" name="setUpClass" finished-at="2025-12-23T18:44:21 IST" duration-ms="366" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6ca8fcf3]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-01-13T16:21:13 IST" name="Default test" finished-at="2026-01-13T16:21:17 IST" duration-ms="3609">
+      <class name="practice_package.TextBoxes">
+        <test-method is-config="true" signature="setup()[pri:0, instance:practice_package.TextBoxes@102cec62]" started-at="2026-01-13T16:21:13 IST" name="setup" finished-at="2026-01-13T16:21:15 IST" duration-ms="2143" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cuCumber_Project.Runner_Class@1c852c0f]" started-at="2025-12-23T18:44:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-23T18:44:37 IST" duration-ms="16304" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Customer registration with valid information"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="check()[pri:0, instance:practice_package.TextBoxes@102cec62]" started-at="2026-01-13T16:21:15 IST" name="check" finished-at="2026-01-13T16:21:17 IST" duration-ms="1314" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cuCumber_Project.Runner_Class@1c852c0f]" started-at="2025-12-23T18:44:37 IST" name="tearDownClass" finished-at="2025-12-23T18:44:37 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cuCumber_Project.Runner_Class -->
+        </test-method> <!-- check -->
+      </class> <!-- practice_package.TextBoxes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
