@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'JDK21'
+    }
+
+    stages {
+        stage('Run Cucumber Tests') {
+            steps {
+                dir('zCucumber') {
+                    bat 'mvn clean test -DsuiteXmlFile=cucumber.xml'
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            publishHTML(target: [
+                reportDir: 'zCucumber/target',
+                reportFiles: 'cucumber-report.html',
+                reportName: 'Cucumber Report'
+            ])
+        }
+    }
+}
