@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T16:41:57 IST" name="Default suite" finished-at="2026-01-21T16:42:08 IST" duration-ms="10870">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T16:41:57 IST" name="Default test" finished-at="2026-01-21T16:42:08 IST" duration-ms="10870">
+      <class name="test.BasicAuth_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:test.BasicAuth_test@3899782c]" started-at="2026-01-21T16:41:57 IST" name="setup" finished-at="2026-01-21T16:42:02 IST" duration-ms="5433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="check()[pri:0, instance:test.BasicAuth_test@3899782c]" started-at="2026-01-21T16:42:02 IST" name="check" finished-at="2026-01-21T16:42:08 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+      </class> <!-- test.BasicAuth_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
